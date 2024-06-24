@@ -45,3 +45,26 @@ h1 {
 .top-menu a.active {
     border-bottom: 1px solid black;
 }
+
+/* Gallery */
+
+.gallery {
+    margin: 0 16px;
+}
+
+.card {
+    display: inline-block;
+    width: 49.75%;
+    padding: 16px;
+}
+
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.card h2 {
+    font-weight: 300;
+    margin: 8px 0 16px 0;
+}
